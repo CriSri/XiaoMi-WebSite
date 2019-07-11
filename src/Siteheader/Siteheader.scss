@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 1226px;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1279666 */
+    src: url('//at.alicdn.com/t/font_1279666_l0fiee2tqup.eot');
+    src: url('//at.alicdn.com/t/font_1279666_l0fiee2tqup.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1279666_l0fiee2tqup.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1279666_l0fiee2tqup.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1279666_l0fiee2tqup.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1279666_l0fiee2tqup.svg#iconfont') format('svg');
+  }
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    color: white;
+    line-height: 55px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrap{
+    background-color:  rgb(51, 51, 51);
+    width: 100%;
+    .topbar {
+        width: 1226px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 40px;
+        font-size: 12px;
+        color: #b0b0b0;
+        a {
+            color: #b0b0b0;
+            line-height: 40px;
+            text-decoration: none;
+        }
+        .seq {
+            margin: 0.5em;
+            color: #424242;
+        }
+        .left{
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+    }
+    
+    
+}
+.nav_category{
+    width: 1226px;
+    line-height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    .headerLogo{
+        display: inline-block;
+        width: 55px;
+        height: 55px;
+        background-color: #ff6700;
+        text-align: center;
+        vertical-align: middle;
+        a {
+            line-height: 55px;
+            vertical-align: top;
+        }
+    }
+    
+    .nav_container{
+        display: inline-block;
+        list-style: none;
+        font-size: 16px;
+        .nav_item{
+            display: inline;
+            padding: 0 10px;
+        }
+        .blank{
+            float: left;
+            width: 127px;
+            height: 86px;
+            padding-right: 15px;
+        }
+    }
+}
+.search{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    form {
+        .search_text{
+            border: 1px solid #e0e0e0;
+            width: 223px;
+            height: 48px;
+            font-size: 14px;
+            line-height: 48px;
+            outline: 0;
+            vertical-align: middle;
+            padding: 0;
+        }
+        .search_btn{
+            color: #616161;
+            outline: 0;
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-left: none; 
+            line-height: 48px;
+            font-size: 17px;
+            width: 52px;
+            height: 50px;
+            vertical-align: middle;
+            padding: 1px 6px;
+            &:hover{
+                background-color: #ff6700;
+                color: white;
+                border: none;
+            }
+        }
+        &:hover{
+            .search_btn,.search_text{
+                border: 1px solid #b0b0b0;
+            }
+        }
+    }
+}
+
+
